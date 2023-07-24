@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
      MaterialApp(
-      home: Scaffold(
+       debugShowCheckedModeBanner: false,
+       home: Scaffold(
         backgroundColor: Colors.red[100],
         appBar: AppBar(
           backgroundColor: Colors.red,
